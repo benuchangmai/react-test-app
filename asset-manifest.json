@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-test-app/static/css/main.d3db1651.chunk.css",
+    "main.js": "/react-test-app/static/js/main.06c65b3c.chunk.js",
+    "main.js.map": "/react-test-app/static/js/main.06c65b3c.chunk.js.map",
+    "runtime-main.js": "/react-test-app/static/js/runtime-main.4c95ea9c.js",
+    "runtime-main.js.map": "/react-test-app/static/js/runtime-main.4c95ea9c.js.map",
+    "static/js/2.dd808e2b.chunk.js": "/react-test-app/static/js/2.dd808e2b.chunk.js",
+    "static/js/2.dd808e2b.chunk.js.map": "/react-test-app/static/js/2.dd808e2b.chunk.js.map",
+    "index.html": "/react-test-app/index.html",
+    "precache-manifest.dd59236c43433194fd946d29b8c54113.js": "/react-test-app/precache-manifest.dd59236c43433194fd946d29b8c54113.js",
+    "service-worker.js": "/react-test-app/service-worker.js",
+    "static/css/main.d3db1651.chunk.css.map": "/react-test-app/static/css/main.d3db1651.chunk.css.map",
+    "static/js/2.dd808e2b.chunk.js.LICENSE.txt": "/react-test-app/static/js/2.dd808e2b.chunk.js.LICENSE.txt",
+    "static/media/Joker.jpg": "/react-test-app/static/media/Joker.4d815e0c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c95ea9c.js",
+    "static/js/2.dd808e2b.chunk.js",
+    "static/css/main.d3db1651.chunk.css",
+    "static/js/main.06c65b3c.chunk.js"
+  ]
+}
