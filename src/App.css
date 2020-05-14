@@ -9,10 +9,41 @@
 .tab > h2:hover {
   background-color: lightgray;
 }
-.landscape {
-  display: flex;
-  justify-content: center;
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
 img{
   max-width: 300px;
+}
+
+.movieGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+}
+.movie-card-container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.movieGrid > button {
+  height: 500px;
+  background: url(./Components/Images/dark_knight.jpg)
+}
+.modal {
+  display: flex;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .movie-info {
+  width: 100%;
+  padding: 10px 5px;
 }

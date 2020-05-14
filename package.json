@@ -7,18 +7,23 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "firebase": "^7.14.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-photo-gallery": "^8.0.0",
+    "react-popupbox": "^2.0.8",
     "react-scripts": "3.4.1",
-    "simple-react-lightbox": "^2.7.3-2"
+    "reactjs-popup": "^1.5.0",
+    "simple-react-lightbox": "^2.8.0-5"
   },
   "scripts": {
-   "start": "react-scripts start",
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
-   "build": "react-scripts build",
-   "test": "react-scripts test",
-   "eject": "react-scripts eject"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

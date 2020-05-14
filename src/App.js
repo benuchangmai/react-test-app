@@ -1,7 +1,12 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import './App.css'
 import Body from './Components/Body'
 import TabList from './Components/TabList'
+
+import config from './Components/config.js'
+//get a reference to firebase
+const firebase = require('firebase')
+
 
 export class App extends Component {
   constructor(){
@@ -31,6 +36,14 @@ export class App extends Component {
     {
       id: 3,
       title: 'Videos'
+    },
+    {
+      id: 4,
+      title: 'FeedbackPage'
+    },
+        {
+      id: 5,
+      title: 'MoviePage'
     }
     ]
 

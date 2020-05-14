@@ -1,25 +1,52 @@
 import React, { Component } from 'react';
 import { SRLWrapper } from "simple-react-lightbox";
 import Joker from './Images/Joker.jpg'
-
+import Gallery from "react-photo-gallery"
 export class Home extends Component {
 
 
 	render() {
 	const options = {
-		thumbnailsSize : ["300px","500px"],
+
+		buttons: {
+			    showAutoplayButton: false,
+			    showCloseButton: true,
+			    showDownloadButton: false,
+			    showFullscreenButton: false,
+			    showNextButton: false,
+			    showPrevButton: false
+			},
+		
+		settings: {
+			autoplaySpeed: 0,
+			disableWheelControls: false,
+			disablePanzoom: true
+		},
+		thumbnails: {
+			showThumbnails: false
+		}
+		
 	}
+	const photos = [
+	  {
+	    src: Joker,
+	    width: 4,
+	    height: 3
+	  },
+	  {
+	    src:  "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+	    width: 1,
+	    height: 1
+	  }
+	];
+ 
+
 		return (
 			<div>
 				<h1>Home</h1>
-				<div className="landscape">
-				<SRLWrapper >
-					<a href={Joker} data-attribute="SRL">
-						<img src={Joker}/>
-					</a>
-					<a href={Joker} data-attribute="SRL">
-						<img src={Joker}/>
-					</a>
+				<div className="images">
+				<SRLWrapper options={options}>
+					<Gallery photos={photos} />;
 				</SRLWrapper>
 				</div>
 			</div>
